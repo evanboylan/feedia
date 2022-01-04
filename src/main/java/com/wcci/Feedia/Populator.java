@@ -37,11 +37,11 @@ public class Populator implements CommandLineRunner {
         googleCalendarRepo.save(reptile1.getMyCalendar());
 
 
-        Reptile reptile2 = new Reptile("Cayde", "Leopard Gecko", 6, "Male","../images/cayde.png", "Loves to perch, eat anything that moves.", 0f, 0f);
-        reptileRepo.save(reptile2);
-        reptile2.createCalendar();
-        reptile2.myCalendar.setReptile(reptile1);
-        googleCalendarRepo.save(reptile2.getMyCalendar());
+//        Reptile reptile2 = new Reptile("Cayde", "Leopard Gecko", 6, "Male","../images/cayde.png", "Loves to perch, eat anything that moves.", 0f, 0f);
+//        reptileRepo.save(reptile2);
+//        reptile2.createCalendar();
+//        reptile2.myCalendar.setReptile(reptile1);
+//        googleCalendarRepo.save(reptile2.getMyCalendar());
 
 //        Reptile reptile3 = new Reptile("Ginger", "Leopard Gecko", 3, "Female","../images/ginger.jpg", "Has a big appetite, likes vegetables.", 0f, 0f);
 //        reptileRepo.save(reptile3);
@@ -63,7 +63,7 @@ public class Populator implements CommandLineRunner {
 //        note1.setReptile(reptile1);
 //        reptileRepo.save(reptile1);
 
-        Note note2 = new Note("Observation:", "They seemed to love the waxworm but should cut those back to once a week.", true, reptile2);
+        Note note2 = new Note("Observation:", "They seemed to love the waxworm but should cut those back to once a week.", true, reptile1);
         noteRepo.save(note2);
 //        note2.setReptile(reptile2);
 //        reptileRepo.save(reptile2);
@@ -73,7 +73,7 @@ public class Populator implements CommandLineRunner {
 //        note3.setReptile(reptile3);
 //        reptileRepo.save(reptile3);
 
-        Note note4 = new Note("Observation:", "Noticed they eat orange foods like squash before green.", true, reptile2);
+        Note note4 = new Note("Observation:", "Noticed they eat orange foods like squash before green.", true, reptile1);
         noteRepo.save(note4);
 //        note4.setReptile(reptile4);
 //        reptileRepo.save(reptile4);
