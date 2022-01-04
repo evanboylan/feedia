@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+.container {
+  position:relative;
+  height: 100vh;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 12%;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+.site_links {
+margin-right: 2%;
+}
+
+.fa-egg {
+    margin-right: 10px;
+}
+
+.pet_overview_section {
+    margin-top:5%;
+    margin-left: 10%;
+    width: 80%;  
+}
+
+.pet_links {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.pet_section img {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.pet_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  align-items: center;
+}
+
+.pet_overview_section section {
+  margin-top: 5%;
+}
+
+.pet_overview_section {
+  margin-bottom: 5%;
+}
+
+.pet_info {
+  margin: 8%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.table_links {
+  padding: 2%;
+}
+
+.pet_demographics {
+  margin-left: 5%;
+}
+
+.temp_humidity_div {
+  margin-left: 5%;
+}
+
+.pet_care_table {
+  margin: 5%;
+  margin-bottom: 5%; 
+}
+
+.tables_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet_calendar_div {
+    margin:5%;
+    
+ }
+/* .schedule_container_spv{
+  margin-bottom: 12%;
+  margin-left: 5%;
+  width: 50%;
+} */
+
+.add_pet_form_top{
+  margin: 2%;
+  margin-left: 2%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.import {
+  display: flex;
+  justify-content: right;
+}
+
+.basic_input {
+  display: flex;
+  padding: 1%;
+  margin-left: 3%
+  
+}
+
+.input_continued {
+  display: flex;
+  padding: 1%;
+  margin-left: 3%;
+}
+
+.description {
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.add_note_section {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+

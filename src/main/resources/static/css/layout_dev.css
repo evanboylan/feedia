@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 12%;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+.site_links {
+margin-right: 2%;
+}
+
+.fa-egg {
+    margin-right: 10px;
+}
+
+.pet_overview_section {
+    margin-top:5%;
+    margin-left: 10%;
+    width: 80%;  
+}
+
+.pet_links {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.pet_section img {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.pet_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  
+}
+
+.pet_overview_section section {
+  margin-top: 5%;
+}
+
+.pet_overview_section {
+  margin-bottom: 5%;
+}
+
+
+
+/* Optional CSS for the Single Pet View */
+
+.first_section {
+  display: flex;
+  justify-content: center;
+}
+
+.single_pet {
+  padding-top: 20px;
+}
+
+.pet_info {
+  display: flex;
+  align-items: center;
+}
+
+.pet_data_div {
+  background-color: lightgray;
+}
+
+.second_section {
+  display: flex;
+  justify-content: center;
+}
+
+.tables_top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet_care_table {
+  padding: 10px 20px 10px 20px;
+}
+
+.third_section {
+  display: flex;
+  justify-content: center;
+}
+
+.table_links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.notes_display_section{
+  padding: 20px 20px 20px 20px;
+}
+
+.notes_display_div {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 400px;
+}
+
+.note_display_box{
+  background-color: lightgray;
+  padding-top: 10px 5px 0px 5px;
+  word-wrap: break-word;
+  max-width: 500px;
+  min-width: 400px;
+}
+
+.add_note_section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+}
+
+.archive_pet_button {
+  justify-content: center;
+}
+
+
+
+/* Optional CSS for the All Pets View */
+
+.pet_Section {
+  display: flex;
+  background-color: #1A8D26;
+  flex-wrap: wrap;
+}
+
+.portrait_and_info_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.temp_humidity_div {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: #1A8D26;
+}
+
+.pets_view_portrait {
+  width: 200px;
+  height: 200px;
+}
+
+/* Optional media query */
+
+@media only screen and (max-width: 1020px){
+  .pet_Section{
+      flex-direction: column;
+      justify-content: center;
+      background-color: black;
+  }
+
+}

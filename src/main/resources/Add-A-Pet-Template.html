@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    <div class="anchor">
+        <div class="container">
+            <section>
+                <header id="header">
+                    <img src="images/feedia_logo.png" alt="site logo" class="logo">
+                    <div class="site_links">
+                        <p><a href="#"><i class="fas fa-egg"></i>Add Pet</a></p>
+                    </div>
+                </header>
+            </section>
+            <div class="add_pet_form_top">
+                <a>Add Pet</a>
+                <div class="import">
+                    <label for="import_pet">Import Pet</label>
+                    <select name="pets" id="pets">
+                        <option value="Cayde">Cayde</option>
+                        <option value ="Kaiju">kaiju</option>
+                    </select>
+
+                </div>
+                <hr>
+            </div>
+            <div class="basic_input">
+                <p>Name: </p> <input type="text" name="name">
+                <p>Age: </p> <input type="text" name="age">
+                <p>Sex: </p> <input type="text" name="sex">
+            </div>
+            <div class="input_continued">
+                <p>Pet Image: </p> <input type="text" name="pet_image">
+                <p>Species: </p> <input type="text" name="species">
+            </div>
+            <div class="description">
+                <p>Description: </p><textarea name="description:" rows="5" cols="40">
+                    </textarea>
+                <button type="add_pet" onclick="add_pet">Add Pet</button>
+            </div>
+            <section>
+                <footer>
+                    <div class="footer_text">
+                        <p>We Can Code it &copy; 2021</p>
+                    </div>
+                </footer>
+            </section>
+</body>
+
+</html>

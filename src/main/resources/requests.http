@@ -1,0 +1,27 @@
+GET http://localhost:8080/reptiles/
+
+###
+
+PATCH http://localhost:8080/reptiles/1/update
+Content-Type: application/json
+
+{"temp": 81,"humidity": 50}
+
+###
+
+POST http://localhost:8080/reptiles/
+Content-Type: application/json 
+
+{
+    "name": "Mr Sneky's Calendar",
+    "species": "Snek",
+    "age": 4,
+    "sex": "Lots",
+    "image": "../images/kaiju.png",
+    "temp": 0.0,
+    "humidity": 0.0,
+    "description": "Description",
+    "needs": [],
+    "schedules": [],
+    "notes": []
+}

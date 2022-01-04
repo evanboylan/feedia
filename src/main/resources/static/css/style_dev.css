@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1A8D26;
+}
+
+.site_links a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color:white;
+}
+
+.pet_links a{
+   font-size: 1.5em;
+   color:#ffffff;
+   text-decoration: none;
+    
+}
+
+.pet_links {
+    background-color: #1A8D26;
+    color:#ffffff;
+}
+
+.pet_section {
+    border: solid .5px black;
+}
+
+
+.add_pet_form_top {
+    color: #1A8D26 ;
+}
+.basic_input {
+    color: #1A8D26 ;
+}
+  
+.input_continued {
+    color: #1A8D26 ;
+}
+  
+.description {
+    color: #1A8D26 ;
+}
+
+.add_pet {
+    color: #1A8D26;
+}
+
+.table_links {
+  background-color: #1A8D26;
+  color:#ffffff;
+  font-size:1.5em;
+}
+
+.table_links a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.pet_care_table {
+    width: 90%;
+    border: black, solid, .5px;
+}
+
+.pet_care_table li {
+    list-style: none;
+}
+
+.pet_care_table li:nth-child(2n) {
+  background-color: rgba(26, 141, 38, 0.3)
+}
+
+
+
+
+footer {
+  background-color: #1A8D26;
+  color: azure;
+  clear: both;
+  position: relative;
+  height: 50px;
+  text-align: center;
+}
+
+.clickable_el {
+    cursor: pointer;
+}
