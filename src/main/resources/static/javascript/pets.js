@@ -83,6 +83,8 @@ function displayPetsView(mainEl, reptiles){
         const petAgendaCalendarDivEl = document.createElement("div");
         petAgendaCalendarDivEl.classList.add('pet-calendar-div');
         petAgendaCalendarDivEl.innerHTML = `<iframe src="https://calendar.google.com/calendar/embed?src=${reptile.myCalendar.googleCalendarId}&mode=AGENDA&showPrint=0&showTabs=0&bgcolor=%231a8d26" style="border:solid 1px #777" width="400" height="300" frameborder="0" scrolling="no"></iframe>`
+//        petAgendaCalendarDivEl.innerHTML = `<iframe src="https://calendar.google.com/calendar/embed?src=${reptile.myCalendar.googleCalendarId}&mode=AGENDA&showPrint=0&showTabs=0&bgcolor=%231a8d26" style="border:solid 1px #777" width="400" height="300" frameborder="0" scrolling="no"></iframe>`
+
 
         const petMonthCalendarDivEl = document.createElement("div");
         petMonthCalendarDivEl.classList.add('pet-calendar-div');

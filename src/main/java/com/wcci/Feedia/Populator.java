@@ -40,20 +40,20 @@ public class Populator implements CommandLineRunner {
         Reptile reptile2 = new Reptile("Cayde", "Leopard Gecko", 6, "Male","../images/cayde.png", "Loves to perch, eat anything that moves.", 0f, 0f);
         reptileRepo.save(reptile2);
         reptile2.createCalendar();
-        reptile2.myCalendar.setReptile(reptile2);
+        reptile2.myCalendar.setReptile(reptile1);
         googleCalendarRepo.save(reptile2.getMyCalendar());
 
-        Reptile reptile3 = new Reptile("Ginger", "Leopard Gecko", 3, "Female","../images/ginger.jpg", "Has a big appetite, likes vegetables.", 0f, 0f);
-        reptileRepo.save(reptile3);
-        reptile3.createCalendar();
-        reptile3.myCalendar.setReptile(reptile3);
-        googleCalendarRepo.save(reptile3.getMyCalendar());
-
-        Reptile reptile4 = new Reptile("Cosmo", "Chameleon", 4, "Male","../images/cosmo.jpg", "Likes to relax, lounge anywhere available.", 0f, 0f);
-        reptileRepo.save(reptile4);
-        reptile4.createCalendar();
-        reptile4.myCalendar.setReptile(reptile4);
-        googleCalendarRepo.save(reptile4.getMyCalendar()); //test
+//        Reptile reptile3 = new Reptile("Ginger", "Leopard Gecko", 3, "Female","../images/ginger.jpg", "Has a big appetite, likes vegetables.", 0f, 0f);
+//        reptileRepo.save(reptile3);
+////        reptile3.createCalendar();
+//        reptile3.myCalendar.setReptile(reptile3);
+//        googleCalendarRepo.save(reptile3.getMyCalendar());
+//
+//        Reptile reptile4 = new Reptile("Cosmo", "Chameleon", 4, "Male","../images/cosmo.jpg", "Likes to relax, lounge anywhere available.", 0f, 0f);
+//        reptileRepo.save(reptile4);
+////        reptile4.createCalendar();
+//        reptile4.myCalendar.setReptile(reptile4);
+//        googleCalendarRepo.save(reptile4.getMyCalendar()); //test
 
         Need need1 = new Need("Medicine Twice Daily", reptile1);
         needRepo.save(need1);
@@ -68,12 +68,12 @@ public class Populator implements CommandLineRunner {
 //        note2.setReptile(reptile2);
 //        reptileRepo.save(reptile2);
 
-        Note note3 = new Note("Observation:", "Noticed they really seemed active today.", true, reptile3);
+        Note note3 = new Note("Observation:", "Noticed they really seemed active today.", true, reptile1);
         noteRepo.save(note3);
 //        note3.setReptile(reptile3);
 //        reptileRepo.save(reptile3);
 
-        Note note4 = new Note("Observation:", "Noticed they eat orange foods like squash before green.", true, reptile4);
+        Note note4 = new Note("Observation:", "Noticed they eat orange foods like squash before green.", true, reptile2);
         noteRepo.save(note4);
 //        note4.setReptile(reptile4);
 //        reptileRepo.save(reptile4);
