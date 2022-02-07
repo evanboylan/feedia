@@ -1,4 +1,4 @@
-@media only screen and (max-width:1020px) {
+@media only screen and (max-width:1450px) {
     .tables_top {
     flex-direction: column;
     width:100%;
@@ -7,7 +7,9 @@
     .pet_overview_section .pet_section {
         width:89%;
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
     }
 
     .pet_calendar_div {
@@ -16,17 +18,9 @@
 
     .feeding_info {
         margin: 5%;
-
     }
 
     footer {
         display: none;
     }
-
-    .pet_section{
-        flex-direction: column;
-        justify-content: center;
-        background-color: black;
-    }
-
 }
