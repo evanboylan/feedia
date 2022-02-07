@@ -23,7 +23,7 @@
         display: none;
     }
 
-    .pet_Section{
+    .pet_section{
         flex-direction: column;
         justify-content: center;
         background-color: black;
