@@ -1,26 +1,32 @@
-@media only screen and (max-width:800px) {
-.tables_top {
- flex-direction: column;
- width:100%;
- }
+@media only screen and (max-width:1020px) {
+    .tables_top {
+    flex-direction: column;
+    width:100%;
+    }
 
- .pet_overview_section .pet_section {
-     width:89%;
-     display: flex;
-     flex-direction: column;
- }
+    .pet_overview_section .pet_section {
+        width:89%;
+        display: flex;
+        /* flex-direction: column; */
+    }
 
- .pet_calendar_div {
-    margin: 20%;
- }
+    .pet_calendar_div {
+        margin: 20%;
+    }
 
- .feeding_info {
-     margin: 5%;
+    .feeding_info {
+        margin: 5%;
 
- }
+    }
 
- footer {
-     display: none;
- }
+    footer {
+        display: none;
+    }
+
+    .pet_Section{
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+    }
 
 }
